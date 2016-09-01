@@ -23,6 +23,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #mongoid database gem
 
 gem 'mongoid', '~> 4.0', '>= 4.0.2'
+gem 'devise', '~> 4.2'
+gem 'cancancan'
+gem 'rolify'
+gem "font-awesome-rails"
+gem 'perfect-scrollbar-rails'
+
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
